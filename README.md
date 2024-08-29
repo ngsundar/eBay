@@ -9,3 +9,10 @@ Requirements:
 5. IoC Compatibility: Ensure the design is compatible with an Inversion of Control (IoC) environment, allowing for external management of dependencies to enable easy testing and swapping of implementations.
 6. Error Handling: The solution should handle invalid operations gracefully (e.g., operations not supported by the calculator).
 7. Testing: Write unit tests to verify your solution, including both normal cases and edge cases.
+
+Clarification:
+Enum Modification: Modifying the Operation enum to add new operations is allowed. The focus of the Open-Closed Principle should be on keeping the Calculator class itself unchanged when new operations are added.
+Basic Calculation Method: The calculate method should take two numbers and an operation, and return the result of applying the operation to the two numbers. For
+example, calculate(Operation.ADD, 2, 3) should return 5.
+Chaining Functionality: The chaining method should allow users to start with an initial value and apply multiple operations in sequence. For example, starting with 5, the user should be able to add 3, then multiply by 2, and retrieve the final result.
+Handling Unsupported Operations: If an operation is requested that isn't supported, the solution should handle this gracefully, either by throwing an exception or providing a meaningful error message.

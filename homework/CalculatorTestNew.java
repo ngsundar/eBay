@@ -1,4 +1,4 @@
-package com.synopsis.homework;
+package homework;
 
 import static org.junit.Assert.*;
 

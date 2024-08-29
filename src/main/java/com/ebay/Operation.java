@@ -1,4 +1,4 @@
-package com.synopsis.homework;
+package com.ebay;
 
 public enum Operation {
 	ADD{

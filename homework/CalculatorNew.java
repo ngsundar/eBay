@@ -1,4 +1,4 @@
-package com.synopsis.homework;
+package homework;
 
 public class CalculatorNew
 {
